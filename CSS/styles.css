@@ -3,19 +3,46 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+  color: #40514e;
 }
+
+.description {
+  font-weight: normal;
+}
+
+p {
+    line-height: 2;
+}
+
 
 h1 {
   margin: 0 auto 0 auto;
   font-family: "Sacramento", serif;
   font-size: 562.5%;
+  color: #66BFBF;
+  line-height: 2;
 }
+
 h2 {
   font-family: "Montserrat", serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
 }
 
 h3 {
   font-family: "Montserrat", serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  margin: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .bottom-cloud {
@@ -36,10 +63,70 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {
 
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-code {
+width: 20%;
+float: left;
+margin-right: 30px;
+}
+
+.skill-bike {
+width: 20%;
+float: right;
+margin-left: 30px;
+}
+
+
+.middle-container {
+  margin: 100px 0;
 }
 
 .bottom-container {
+  background-color: #66BFBF;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
+hr {
+  border: dotted #EAF6F6 6px;
+  width: 10%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.me-pic {
+  width: 15%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
 }
